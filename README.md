@@ -7,7 +7,7 @@ npm install
 ```
 npm start 
 ```
-
+---
 1. Setting up webpack & webpack-cli
 
 ```
