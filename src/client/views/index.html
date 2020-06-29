@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>NLP project</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            Logo
+        </div>
+        <div class="nav">
+            navigation
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2> Form</h2> 
+            <form class="form" onsubmit="return Client.handleSubmit(event)">
+                <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
+                <input class="submit" type="submit" name="submit" value="submit" onclick="return Client.handleSubmit(event)"
+                    onsubmit="return Client.handleSubmit(event)">
+            </form>
+        </section>
+
+        <section>
+            <h2> Form results</h2>
+            <div id="results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>This is a footer</p>
+    </footer>
+
+</body>
+
+</html>
