@@ -1,9 +1,17 @@
 import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler'
 
+import './styles/resets.scss'
+import './styles/base.scss'
+import './styles/footer.scss'
+import './styles/form.scss'
+import './styles/header.scss'
+
 console.log(checkForName);
 
-//For testing the server
-alert("It's working !");
+console.log("Hello world !");
 
-console.log("Hello there, have a nice day !");
+export {
+    checkForName,
+    handleSubmit
+}
