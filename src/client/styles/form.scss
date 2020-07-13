@@ -10,6 +10,22 @@ form {
         margin: 10px 0;
         background-color: #fff;
     }
-}
-
+    .submit{
+        display: inline-block;
+        font-size: 0.9rem;
+        cursor: pointer;
+        text-align: center;
+        outline: none;
+        color: #000;
+        background-color: #fef6fb;
+        border: none;
+    }
+    
+    .submit:hover {background-color: #d7d7d7}
+    
+    .submit:active {
+        background-color: #d7d7d7;
+        transform: translateY(4px);
+    }
+    }
 
